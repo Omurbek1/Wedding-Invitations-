@@ -22,7 +22,6 @@ function MainLayout({ children }) {
         {/* font and SEO tags */}
         <meta property="og:title" content="The Wedding of Omurbek & Zarina" />
         <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:url" content="https://thekusuma.com" />
         <meta property="og:site_name" content="The Wedding of Omurbek & Zarina" />
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta name="twitter:title" content="The Wedding of Omurbek & Zarina" />
