@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-dinda-2.jpg';
+import Bride from '@assets/images/we.jpg';
 import Groom from '@assets/images/p-indra.jpg';
 
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '15 August 2024, a restaurant Altyn Arashan, Bishkek' : '15 August 2024, Altyn Arashan, Bishkek';
+  const finalSubtitle = isInvitation
+    ? '15 August 2024, a restaurant Altyn Arashan, Bishkek'
+    : '15 August 2024, Altyn Arashan, Bishkek';
 
   return (
     <Fragment>
@@ -15,7 +17,7 @@ function HelloSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
+              <h2 className="main-font">Hello every one, Wr. Wb</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
                 It is with great joy that we invite you to join us as we embark on this new, wonderful chapter of our
@@ -34,7 +36,7 @@ function HelloSection({ isInvitation }) {
                 <h3 className="main-font">Zarina Abdibaitova</h3>
                 <p className="parent-name parent-name__top">
                   Daughter Abdibait.
-                  <br />& Ibu Setyo Listiani
+                  <br />& Dana Abdibait.
                 </p>
               </div>
             </div>

@@ -36,12 +36,9 @@ function Home({ location }) {
     return (
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
-        <WeddingSection isInvitation={!isInvitation} />
-
         <StorySection />
         <PhotoSection />
         <WishesSection />
-        <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
         {!isInvitation && <LocationSection />}
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
