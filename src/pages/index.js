@@ -10,18 +10,15 @@ import HelloSection from '@components/HelloSection';
 import LocationSection from '@components/LocationSection';
 import StorySection from '@components/StorySection';
 import PhotoSection from '@components/PhotoSection/Loadable';
-import WishesSection from '@components/WishesSection';
 import FooterSection from '@components/FooterSection';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
-import { useTranslation } from 'react-i18next';
+
 import './i18n';
 
 function Home({ location }) {
-  const { t } = useTranslation();
-
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
   const isInvitation = getQueryValue(location, 'type') === 'invitation';
-  const firstName = guestName.replace(/ .*/, '');
+
   const isAnonymGuest = guestName === '' && !isInvitation;
   const codeLink = getQueryValue(location, 'code') || '';
   const finalTicketLink = `code=${codeLink}&name=${guestName}`;

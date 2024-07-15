@@ -18,76 +18,77 @@ import Gallery14 from '@assets/images/gallery-14.jpg';
 import Gallery15 from '@assets/images/gallery-15.jpg';
 
 export const photos = [
-         {
-           original: Gallery1,
-           thumbnail: Gallery1,
-         },
-         {
-           original: Image6,
-           thumbnail: Image6,
-         },
-         {
-           original: Image5,
-           thumbnail: Image5,
-         },
-         {
-           original: Image2,
-           thumbnail: Image2,
-         },
-         {
-           original: Image1,
-           thumbnail: Image1,
-         },
-         {
-           original: Image3,
-           thumbnail: Image3,
-         },
-         {
-           original: Gallery4,
-           thumbnail: Gallery4,
-         },
-         {
-           original: Gallery5,
-           thumbnail: Gallery5,
-         },
-         {
-           original: Gallery6,
-           thumbnail: Gallery6,
-         },
-         {
-           original: Gallery7,
-           thumbnail: Gallery7,
-         },
-         {
-           original: Gallery8,
-           thumbnail: Gallery8,
-         },
-         {
-           original: Gallery9,
-           thumbnail: Gallery9,
-         },
-         {
-           original: Gallery10,
-           thumbnail: Gallery10,
-         },
-         {
-           original: Gallery11,
-           thumbnail: Gallery11,
-         },
-         {
-           original: Gallery12,
-           thumbnail: Gallery12,
-         },
-         {
-           original: Gallery13,
-           thumbnail: Gallery13,
-         },
-         {
-           original: Gallery14,
-           thumbnail: Gallery14,
-         },
-         {
-           original: Gallery15,
-           thumbnail: Gallery15,
-         },
-       ];
+  {
+    original: Gallery1,
+    thumbnail: Gallery1,
+  },
+  {
+    original: Image2,
+    thumbnail: Image2,
+  },
+  {
+    original: Image6,
+    thumbnail: Image6,
+  },
+
+  {
+    original: Image1,
+    thumbnail: Image1,
+  },
+  {
+    original: Image3,
+    thumbnail: Image3,
+  },
+  {
+    original: Gallery4,
+    thumbnail: Gallery4,
+  },
+  {
+    original: Gallery5,
+    thumbnail: Gallery5,
+  },
+  {
+    original: Gallery6,
+    thumbnail: Gallery6,
+  },
+  {
+    original: Image5,
+    thumbnail: Image5,
+  },
+  {
+    original: Gallery7,
+    thumbnail: Gallery7,
+  },
+  {
+    original: Gallery8,
+    thumbnail: Gallery8,
+  },
+  {
+    original: Gallery9,
+    thumbnail: Gallery9,
+  },
+  {
+    original: Gallery10,
+    thumbnail: Gallery10,
+  },
+  {
+    original: Gallery11,
+    thumbnail: Gallery11,
+  },
+  {
+    original: Gallery12,
+    thumbnail: Gallery12,
+  },
+  {
+    original: Gallery13,
+    thumbnail: Gallery13,
+  },
+  {
+    original: Gallery14,
+    thumbnail: Gallery14,
+  },
+  {
+    original: Gallery15,
+    thumbnail: Gallery15,
+  },
+];

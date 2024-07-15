@@ -1524,6 +1524,54 @@
   "resolved" "https://registry.npmjs.org/@eslint/js/-/js-8.57.0.tgz"
   "version" "8.57.0"
 
+"@formatjs/ecma402-abstract@2.0.0":
+  "integrity" "sha512-rRqXOqdFmk7RYvj4khklyqzcfQl9vEL/usogncBHRZfZBDOwMGuSRNFl02fu5KGHXdbinju+YXyuR+Nk8xlr/g=="
+  "resolved" "https://registry.npmjs.org/@formatjs/ecma402-abstract/-/ecma402-abstract-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "@formatjs/intl-localematcher" "0.5.4"
+    "tslib" "^2.4.0"
+
+"@formatjs/intl-enumerator@1.4.7":
+  "integrity" "sha512-03RHnFqfpB4H/jwCwlzC+wkTDk2Fi24JmVIY2PVGvTUpikN2bSr9+8oTXfOC+y7B7VxjCArUnqWXVoctkmy85w=="
+  "resolved" "https://registry.npmjs.org/@formatjs/intl-enumerator/-/intl-enumerator-1.4.7.tgz"
+  "version" "1.4.7"
+  dependencies:
+    "tslib" "^2.4.0"
+
+"@formatjs/intl-getcanonicallocales@2.3.0":
+  "integrity" "sha512-BOXbLwqQ7nKua/l7tKqDLRN84WupDXFDhGJQMFvsMVA2dKuOdRaWTxWpL3cJ7qPkoNw11Jf+Xpj4OSPBBvW0eQ=="
+  "resolved" "https://registry.npmjs.org/@formatjs/intl-getcanonicallocales/-/intl-getcanonicallocales-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "tslib" "^2.4.0"
+
+"@formatjs/intl-locale@^4.0.0":
+  "integrity" "sha512-+4dbMEGsp1bvB3JB3UHH6YTjMnFTifnfdaHp4ROrCCu50NedA69RBsDCG3eivcZkbj57X9ehGhMWjLxlP+gyVw=="
+  "resolved" "https://registry.npmjs.org/@formatjs/intl-locale/-/intl-locale-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "@formatjs/ecma402-abstract" "2.0.0"
+    "@formatjs/intl-enumerator" "1.4.7"
+    "@formatjs/intl-getcanonicallocales" "2.3.0"
+    "tslib" "^2.4.0"
+
+"@formatjs/intl-localematcher@0.5.4":
+  "integrity" "sha512-zTwEpWOzZ2CiKcB93BLngUX59hQkuZjT2+SAQEscSm52peDW/getsawMcWF1rGRpMCX6D7nSJA3CzJ8gn13N/g=="
+  "resolved" "https://registry.npmjs.org/@formatjs/intl-localematcher/-/intl-localematcher-0.5.4.tgz"
+  "version" "0.5.4"
+  dependencies:
+    "tslib" "^2.4.0"
+
+"@formatjs/intl-pluralrules@^5.2.14":
+  "integrity" "sha512-l6Ev7aOGXJSh5EPDEqzsbyufdCCKXZk993QXRQebLsB0TXRhIyF4alqjdMEatLwIigK/Mka8kiVIOLeFP5Cj9Q=="
+  "resolved" "https://registry.npmjs.org/@formatjs/intl-pluralrules/-/intl-pluralrules-5.2.14.tgz"
+  "version" "5.2.14"
+  dependencies:
+    "@formatjs/ecma402-abstract" "2.0.0"
+    "@formatjs/intl-localematcher" "0.5.4"
+    "tslib" "^2.4.0"
+
 "@hapi/address@2.x.x":
   "version" "2.1.4"
 
@@ -9103,6 +9151,11 @@
     "hasown" "^2.0.0"
     "side-channel" "^1.0.4"
 
+"intl@^1.2.5":
+  "integrity" "sha512-rK0KcPHeBFBcqsErKSpvZnrOmWOj+EmDkyJ57e90YWaQNqbcivcqmKDlHEeNprDWOsKzPsh1BfSpPQdDvclHVw=="
+  "resolved" "https://registry.npmjs.org/intl/-/intl-1.2.5.tgz"
+  "version" "1.2.5"
+
 "into-stream@^3.1.0":
   "version" "3.1.0"
   dependencies:
@@ -15804,6 +15857,11 @@
   "version" "2.6.3"
 
 "tslib@^2.0.3":
+  "integrity" "sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ=="
+  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.6.3.tgz"
+  "version" "2.6.3"
+
+"tslib@^2.4.0":
   "integrity" "sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.6.3.tgz"
   "version" "2.6.3"

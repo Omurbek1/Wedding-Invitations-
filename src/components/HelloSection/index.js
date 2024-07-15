@@ -8,8 +8,8 @@ import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
   const finalSubtitle = isInvitation
-    ? '15 August 2024, a restaurant Altyn Arashan, Bishkek'
-    : '15 August 2024, Altyn Arashan, Bishkek';
+    ? '  5:00pm  15 August 2024, a restaurant Altyn Arashan, Bishkek'
+    : '17:00   15 August 2024, Altyn Arashan, Bishkek';
 
   return (
     <Fragment>

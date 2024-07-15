@@ -1,6 +1,21 @@
 import { css } from '@emotion/core';
 
 export const styWrapper = css`
+  @keyframes borderColorChange {
+    0% {
+      border-color: blue;
+    }
+    50% {
+      border-color: red;
+    }
+    100% {
+      border-color: green;
+    }
+  }
+
+  .animatedBorder {
+    animation: borderColorChange 3s infinite;
+  }
   .sub-title {
     color: #828282;
     font-weight: 600;

@@ -1,19 +1,14 @@
 import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
-import { Link } from 'gatsby';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
-import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
-import LanguageSwitcher from '../LanguageSwitcher';
-import { useTranslation } from 'react-i18next';
+import { styWrapper, styHero, styBackground } from './styles';
 
 const DELAY_TIME = 1500;
 
 function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, codeLink, onClickDetail }) {
-  const { t } = useTranslation();
-
   const [loading, setLoading] = useState(false);
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
@@ -52,7 +47,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     if (isAnonymGuest)
       return (
         <Fragment>
-          <h2 className="to-dearest-name">To our Guests</h2>
+          <h2 className="to-dearest-name">The Guests</h2>
         </Fragment>
       );
 
@@ -66,7 +61,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
   return (
     <div css={styHero}>
-      <div
+      {/* <div
         style={{
           position: 'absolute',
           top: 10,
@@ -75,7 +70,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         }}
       >
         <LanguageSwitcher />
-      </div>
+      </div> */}
       <header
         id="fh5co-header"
         role="banner"

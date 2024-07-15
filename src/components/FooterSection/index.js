@@ -31,19 +31,44 @@ function FooterSection({ isInvitation }) {
               }}
             >
               <div className="col-md-8 col-md-offset-2 ">
-                Mamytbekov Omurbek(bridegroom): <br /> 🇰🇬 Mbank - 996776882271
-                <br />
-                🇰🇬 Элкард - 9417608993188430 🇨🇳
-                <br />
-                <div style={{ display: 'flex' }}>
-                  <img src={mbank} alt="mbank" style={{ width: '35%' }} />
-                  <img src={alipay} alt="mbank" style={{ width: '35%' }} />
+                <b> Mamytbekov Omurbek(bridegroom):</b> <br />
+                <div
+                  className="animatedBorder"
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    borderColor: 'black',
+                    padding: '10px',
+                    borderWidth: '1px',
+                    borderStyle: 'solid',
+                  }}
+                >
+                  <span> 🇰🇬 Mbank - 996776882271</span>
+                  <span> 🇰🇬 Элкард - 9417608993188430</span>
+                  <span>🇨🇳</span>
+                  <div style={{ display: 'flex' }}>
+                    <img src={mbank} alt="mbank" style={{ width: '35%' }} />
+                    <img src={alipay} alt="mbank" style={{ width: '35%' }} />
+                  </div>
                 </div>
+                <br />
               </div>
               <div className="col-md-8 col-md-offset-2 ">
-                Abdibaitova Zarina(bride):
-                <br /> 🇰🇬 Mbank - 996558882271 <br />
-                🇰🇷 Hana bank - 50891047557807
+                <b>Abdibaitova Zarina(bride):</b>
+                <div
+                  className="animatedBorder"
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    borderColor: 'black',
+                    padding: '10px',
+                    borderWidth: '1px',
+                    borderStyle: 'solid',
+                  }}
+                >
+                  <span> 🇰🇬 Mbank - 996558882271</span>
+                  <span>🇰🇷 Hana bank - 50891047557807</span>
+                </div>
               </div>
             </div>
           </div>
