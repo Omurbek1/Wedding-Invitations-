@@ -20,7 +20,7 @@ function MainLayout({ children }) {
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Dinda & Indra" />
+        <meta property="og:title" content="The Wedding of Omurbek & Zarina" />
         <meta property="og:image" content={IMAGE_URL} />
         <meta property="og:url" content="https://thekusuma.com" />
         <meta property="og:site_name" content="The Wedding of Omurbek & Zarina" />
