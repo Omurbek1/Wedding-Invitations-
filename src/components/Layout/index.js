@@ -7,7 +7,7 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `@assets/images/slide-5.jpg`;
+const IMAGE_URL = `../../assets/images/bg-welcome.jpg`;
 const META_DESCRIPTION = `Omurbek ❤️ Zarina - The weddings of Omurbek & Zarina`;
 
 function MainLayout({ children }) {
