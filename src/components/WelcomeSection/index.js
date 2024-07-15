@@ -6,10 +6,13 @@ import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
+import LanguageSwitcher from '../LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 const DELAY_TIME = 1500;
 
 function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, codeLink, onClickDetail }) {
+  const { t } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
@@ -48,7 +51,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     if (isAnonymGuest)
       return (
         <Fragment>
-          <h2 className="to-dearest-name">Dear Guests</h2>
+          <h2 className="to-dearest-name">{t('dearGuests')}</h2>
         </Fragment>
       );
 
@@ -62,6 +65,16 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
   return (
     <div css={styHero}>
+      <div
+        style={{
+          position: 'absolute',
+          top: 10,
+          right: 10,
+          zIndex: 1,
+        }}
+      >
+        <LanguageSwitcher />
+      </div>
       <header
         id="fh5co-header"
         role="banner"
