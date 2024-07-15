@@ -21,7 +21,9 @@ function LocationSection() {
                   <strong>Restaurant Altyn Arashan</strong>
                 </a>{' '}
                 <br />
-                ​Улица 7 апреля, 7/2, Бишкек
+                ​Улица 7 апреля, 7/2, Бишкек, Кыргызстан
+                <br />
+                <time> 17:00 - 23:59</time>
               </p>
             </div>
           </div>
@@ -39,6 +41,34 @@ function LocationSection() {
                 tabIndex="0"
                 title="Google Maps - Dinda & Indra Wedding Party"
               ></iframe>
+              <div className="text-center" style={{ marginTop: '20px' }}>
+                <button className="btn btn-primary #fff">
+                  {/* save to google calendar 2024-08-15 17:00 Omurber and Zarina wedding day 5pm - 11pm */}
+                  <a
+                    href="https://go.2gis.com/so7ro"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                      color: '#fff',
+                    }}
+                  >
+                    Open by 2Gis
+                  </a>
+                </button>
+                <button className="btn btn-primary #fff">
+                  {/* save to google calendar 2024-08-15 17:00 Omurber and Zarina wedding day 5pm - 11pm */}
+                  <a
+                    style={{
+                      color: '#fff',
+                    }}
+                    href="https://maps.app.goo.gl/yQvVP52qYB7fVnrU6"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open by Google Maps
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>

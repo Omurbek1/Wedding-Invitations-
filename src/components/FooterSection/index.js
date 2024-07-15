@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 import { styWrapper } from '../HelloSection/styles';
+import mbank from '@assets/images/mbank.jpg';
+import alipay from '@assets/images/alipay.jpg';
 
 function FooterSection({ isInvitation }) {
   return (
@@ -10,17 +12,38 @@ function FooterSection({ isInvitation }) {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Terima Kasih</h2>
+                <div className="event-wrap">
+                  <h2 className="main-font">For cash and gifts</h2>
+                </div>
+
                 <p className="info">
-                  Berdasarkan kondisi saat ini, tanpa mengurangi rasa hormat, diharapkan tetap bisa menjalin silaturahmi
-                  melalui media online, bukan dengan kontak fisik secara langsung. <br />
-                  Mohon pengertiannya.
+                  Having you with us on our special day is the best gift we could ask for. Though should you wish to
+                  help us keep the celebrations going, a cash gift towards our honeymoon fund would be greatly
+                  appreciated.
                 </p>
-                <p className="info">
-                  Atas segala do'a dan restu saudara/i,
-                  <br /> kami ucapkan terima kasih. <br />
-                  Wassalamualaikum warahmatullahi wabarakatuh.
-                </p>
+              </div>
+            </div>
+            <div
+              className="row "
+              style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+              }}
+            >
+              <div className="col-md-8 col-md-offset-2 ">
+                Mamytbekov Omurbek(bridegroom): <br /> 🇰🇬 Mbank - 996776882271
+                <br />
+                🇰🇬 Элкард - 9417608993188430 🇨🇳
+                <br />
+                <div style={{ display: 'flex' }}>
+                  <img src={mbank} alt="mbank" style={{ width: '35%' }} />
+                  <img src={alipay} alt="mbank" style={{ width: '35%' }} />
+                </div>
+              </div>
+              <div className="col-md-8 col-md-offset-2 ">
+                Abdibaitova Zarina(bride):
+                <br /> 🇰🇬 Mbank - 996558882271 <br />
+                🇰🇷 Hana bank - 50891047557807
               </div>
             </div>
           </div>

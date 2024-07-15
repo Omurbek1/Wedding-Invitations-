@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/we.jpg';
-import Groom from '@assets/images/p-indra.jpg';
+import Bride from '@assets/images/zarina.jpg';
+import Groom from '@assets/images/omurbek.jpg';
 
 import { styWrapper } from './styles';
 
@@ -17,7 +17,7 @@ function HelloSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Hello every one, Wr. Wb</h2>
+              <h2 className="main-font">Hello every one</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
                 It is with great joy that we invite you to join us as we embark on this new, wonderful chapter of our
@@ -35,8 +35,7 @@ function HelloSection({ isInvitation }) {
               <div className="desc-groom">
                 <h3 className="main-font">Zarina Abdibaitova</h3>
                 <p className="parent-name parent-name__top">
-                  Daughter Abdibait.
-                  <br />& Dana Abdibait.
+                  Software Engineer <br />& Korean teacher
                 </p>
               </div>
             </div>
@@ -53,7 +52,7 @@ function HelloSection({ isInvitation }) {
               <div className="desc-bride">
                 <h3 className="main-font">Omurbek Mamytbekov</h3>
                 <p className="parent-name">
-                  Son Mamytbek <br />& Atyrgul
+                  Software Engineer <br />& Businessman
                 </p>
               </div>
             </div>

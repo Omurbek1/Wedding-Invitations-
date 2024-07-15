@@ -45,12 +45,12 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
   };
 
   const renderGuestSection = () => {
-    if (isAnonymGuest) return (
-                         <Fragment>
-                           <h2 className="to-dearest-name">Dear Guest,</h2>
-                           <h2 className="to-dearest-name">러브나그네 가족</h2>
-                         </Fragment>
-                       );
+    if (isAnonymGuest)
+      return (
+        <Fragment>
+          <h2 className="to-dearest-name">Dear Guests</h2>
+        </Fragment>
+      );
 
     return (
       <Fragment>
@@ -80,15 +80,6 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
                 <CountContainer />
               </div>
               {renderGuestSection()}
-              {isInvitation && (
-                <div className="row" css={styButtonWrapper}>
-                  <div className="col-md-3">
-                    <Link to={`/e-ticket?${codeLink}`}>
-                      <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-                    </Link>
-                  </div>
-                </div>
-              )}
             </div>
           </div>
           <div className="row">
