@@ -13,7 +13,7 @@ function FooterSection({ isInvitation }) {
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                 <div className="event-wrap">
-                  <h2 className="main-font">For cash and gifts</h2>
+                  <h2 className="main-font">For cash and Gifts</h2>
                 </div>
 
                 <p className="info">
