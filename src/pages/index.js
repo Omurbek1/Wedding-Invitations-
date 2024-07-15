@@ -13,8 +13,6 @@ import PhotoSection from '@components/PhotoSection/Loadable';
 import FooterSection from '@components/FooterSection';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 
-import './i18n';
-
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
   const isInvitation = getQueryValue(location, 'type') === 'invitation';
