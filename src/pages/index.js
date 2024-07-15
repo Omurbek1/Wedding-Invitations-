@@ -14,6 +14,7 @@ import WishesSection from '@components/WishesSection';
 import FooterSection from '@components/FooterSection';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 import { useTranslation } from 'react-i18next';
+import './i18n';
 
 function Home({ location }) {
   const { t } = useTranslation();
