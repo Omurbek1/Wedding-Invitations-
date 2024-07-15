@@ -2,12 +2,12 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
 
-import Favicon from '@assets/images/dinda-indra.png';
+import Favicon from '@assets/images/slide-5.jpg';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
+const IMAGE_URL = `@assets/images/slide-5.jpg`;
 const META_DESCRIPTION = `Omurbek ❤️ Zarina - The weddings of Omurbek & Zarina`;
 
 function MainLayout({ children }) {
@@ -28,9 +28,6 @@ function MainLayout({ children }) {
         <meta name="twitter:title" content="The Wedding of Omurbek & Zarina" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
-        <meta name="twitter:url" content="https://thekusuma.com" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@idindrakusuma" />
 
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"

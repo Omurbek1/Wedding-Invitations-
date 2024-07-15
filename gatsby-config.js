@@ -12,6 +12,18 @@ module.exports = {
     'gatsby-plugin-eslint',
     `gatsby-plugin-emotion`,
     'gatsby-optional-chaining',
+    `gatsby-plugin-react-i18next`,
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      path: `${__dirname}/locales`,
+      languages: ['en', 'kg', 'kor', 'ru'],
+      defaultLanguage: 'en',
+      i18nextOptions: {
+        interpolation: {
+          escapeValue: false, // not needed for react as it escapes by default
+        },
+      },
+    },
     {
       resolve: 'gatsby-alias-imports',
       options: {
@@ -22,16 +34,6 @@ module.exports = {
           '@assets': 'src/assets',
           '@hooks': 'src/hooks',
           '@': 'src',
-        },
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-react-i18next',
-      path: `${__dirname}/locales`,
-      languages: ['en', 'kg', 'ru', 'kor'],
-      i18nextOptions: {
-        interpolation: {
-          escapeValue: false, // not needed for react as it escapes by default
         },
       },
     },

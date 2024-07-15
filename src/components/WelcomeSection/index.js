@@ -13,6 +13,7 @@ const DELAY_TIME = 1500;
 
 function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, codeLink, onClickDetail }) {
   const { t } = useTranslation();
+
   const [loading, setLoading] = useState(false);
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
@@ -51,7 +52,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     if (isAnonymGuest)
       return (
         <Fragment>
-          <h2 className="to-dearest-name">{t('dearGuests')}</h2>
+          <h2 className="to-dearest-name">To our Dearest</h2>
         </Fragment>
       );
 

@@ -17,7 +17,7 @@ import { useTranslation } from 'react-i18next';
 
 function Home({ location }) {
   const { t } = useTranslation();
-  console.log(t('dearGuests'));
+
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
   const isInvitation = getQueryValue(location, 'type') === 'invitation';
   const firstName = guestName.replace(/ .*/, '');

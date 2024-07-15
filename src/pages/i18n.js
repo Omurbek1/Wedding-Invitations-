@@ -1,7 +1,7 @@
-import en from './locales/en/translation.json';
-import ru from './locales/ru/translation.json';
-import kor from './locales/kor/translation.json';
-import kg from './locales/kg/translation.json';
+import en from '../locales/en/translation.json';
+import ru from '../locales/ru/translation.json';
+import kor from '../locales/kor/translation.json';
+import kg from '../locales/kg/translation.json';
 import { initReactI18next } from 'react-i18next';
 import i18next from 'i18next';
 
@@ -21,6 +21,10 @@ i18next
     resources,
     lng: 'en', // if you're using a language detector, do not define the lng option
     fallbackLng: 'en',
+
+    keySeparator: false, // we do not use keys in form messages.welcome
+
+    nsSeparator: false,
 
     interpolation: {
       escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
