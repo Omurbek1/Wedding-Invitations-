@@ -17,8 +17,8 @@ function FooterSection({ isInvitation }) {
                 </div>
 
                 <p className="info">
-                  Having you with us on our special day is the best gift we could ask for. Though should you wish to
-                  help us keep the celebrations going, a cash gift towards our honeymoon fund would be greatly
+                  Having you with us on our special day is the best gifts we could ask for. Though should you wish to
+                  help us keep the celebrations going, a cash gifts towards our honeymoon fund would be greatly
                   appreciated.
                 </p>
               </div>

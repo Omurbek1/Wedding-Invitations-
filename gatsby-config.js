@@ -6,12 +6,12 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: `/theOmurbekWed`,
+  pathPrefix: `/thekusuma`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-eslint',
     `gatsby-plugin-emotion`,
-
+    'gatsby-optional-chaining',
     {
       resolve: 'gatsby-alias-imports',
       options: {

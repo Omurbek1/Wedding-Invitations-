@@ -47,7 +47,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     if (isAnonymGuest)
       return (
         <Fragment>
-          <h2 className="to-dearest-name">The Guests</h2>
+          <h2 className="to-dearest-name">Dear Guests</h2>
         </Fragment>
       );
 
